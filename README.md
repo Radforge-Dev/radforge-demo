@@ -10,6 +10,8 @@ Run the example locally:
 go test ./...
 ```
 
+The [demo pull request](https://github.com/Radforge-Dev/radforge-demo/pull/1) deliberately violates that policy. Its **Ordinary Go tests** check runs the tests above. This check is separate from Radforge analysis; a green result only means those two example cases pass.
+
 ## Try the GitHub App
 
 1. Create your account at [Radforge](https://radforge.dev) and select a repository you administer. To experiment independently, use a fork of this repository.
